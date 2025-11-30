@@ -1,0 +1,444 @@
+baseURL: "https://www.michelpronini.nl"
+languageCode: "en-us"
+title: "Michel Pronini"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Michel Pronini"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/mp.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Michel Pronini" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Michel."
+    subtitle: "Devops Engineer"
+    content: "I write code that keeps the internet from catching fire. Calm under pressure, dangerous with Python, and allergic to manual config."
+    image: "https://media.licdn.com/dms/image/v2/C5603AQGe7JILOBdnrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655271708324?e=1764806400&v=beta&t=SIq7CGeOnvLD0mMMQDNi6E1tKvT91BqkIf8IOUDQ2k8"
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "#"
+      download: false
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/demich89
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/michelpronini/
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "Me"
+    image: "https://media.licdn.com/dms/image/v2/C5603AQGe7JILOBdnrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655271708324?e=1764806400&v=beta&t=SIq7CGeOnvLD0mMMQDNi6E1tKvT91BqkIf8IOUDQ2k8"
+    content: |-
+      I’m a DevOps engineer with a strong background in networking and automation. 
+      Over the years, I’ve worked across diverse technical domains, specializing in routing, switching, and infrastructure engineering. I’m passionate about bridging traditional networking with modern software practices to build scalable, automated systems. 
+      Currently, I’m focusing on advancing network automation and process optimization through scripting and DevOps tools — turning complex infrastructure into efficient, reliable platforms that drive innovation across the organization.
+    skills:
+      enable: true
+      title: "Current recent skill focus:"
+      items:
+          - "Python - let the scripts do the work"
+          - "Terraform – because state is key"
+          - "BGP/MPLS – In doubt, route it out"
+          - "Fortinet, Cisco, Juniper, 6WIND – been there, configured that"
+          - "OpenStack - cloudy with a chance of packets"
+          - "CI/CD – automate all the things"
+          - "MacOS – Byebye blue screens"
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - company: "Swisscom"
+        companyUrl: "https://www.swisscom.ch"
+        jobs:
+          - name: "DevOps Engineer"
+            date: "Jun 2022 – Present"
+            content: |
+              At the leading ISP from Switzerland, [Swisscom](https://www.swisscom.ch), I started the my first real DevOps engineer role.
+              Automate were possible, lab everything first before production. Working on a daily base with Python and Terraform
+              to automate network deployments and configurations.
+
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-brands fa-python
+                  url: https://www.python.org/
+                  tooltip: Python scripting
+                - icon: fa-solid fa-network-wired
+                  url: https://www.cisco.com/
+                  tooltip: Network Automation
+              customIcons:
+                - icon: https://icon.icepanel.io/Technology/svg/HashiCorp-Terraform.svg
+                  url: https://www.terraform.io/
+                  tooltip: Terraform Infrastructure as Code
+
+      - company: "Routz"
+        companyUrl: "https://www.routz.nl"
+        jobs:
+          - name: "Network Engineer"
+            date: "Apr 2016 – Jun 2022"
+            content: |
+              At [Routz Group](https://www.routz.nl), I started to work as a Network Engineer for various clients
+              such as VodafoneZiggo and Vodafone NL. Specified all below:
+
+          - name: "Service Designer (VodafoneZiggo via Routz)"
+            date: "Mar 2019 – Jun 2022"
+            content: |
+              Same company [VodafoneZiggo](https://www.vodafoneziggo.nl) but a switch to the service design team.
+              Here I worked on the design and implementation for Voice and also an Azure solution. 
+              
+
+          - name: "Network Engineer (VodafoneZiggo via Routz)"
+            date: "Jan 2017 – Mar 2019"
+            content: |
+              The merger was a fact for [VodafoneZiggo](https://www.VodafoneZiggo.nl), and I did some extra projects 
+              to write LLD for project like replacement of probe routers from the core and management. 
+
+
+          - name: "Network Engineer (Vodafone NL via Routz)"
+            date: "May 2016 – Jan 2017"
+            content: |
+              My first assignment [Vodafone NL](https://www.vodafone.nl), I started with the data engineer team.
+              Made a hugo jump into MPLS and BGP routing. Amazing time and started my first automation with Python
+              for the deployment of repetitive tasks.
+              Worked with Cisco, Huawei, Fortinet, F5 and several smaller CPE. 
+
+      - company: "Simac ICT Netherlands"
+        companyUrl: "https://www.simac.com"
+        jobs:
+          - name: "Cloud Network Engineer"
+            date: "Nov 2013 – Mar 2016"
+            content: |
+              At [Simac ICT](https://www.simac.com), Ran the network side of a private cloud before “cloud” was cool. 
+              Nexus, Netscaler, ASA, DMVPN — if it blinked and had an IP, I made it work. 
+              Automated repetitive tasks with Excel (had I only known better than).
+
+      - company: "Liquid Stones Professionals in IT"
+        companyUrl: "https://www.liquidstones.nl"
+        jobs:
+          - name: "Engineer"
+            date: "Sep 2012 – Sep 2013"
+            content: |
+              I worked on migrations and upgrades involving Exchange, VMware, and network infrastructure. 
+              I provided both server and client-level support to small and medium business customers, 
+              ensuring smooth transitions and minimal downtime. Too much small jobs and repetitive tasks
+              so decided to move for a real network engineer job. 
+
+          - name: "Engineer (Internship)"
+            date: "Jan 2010 – Aug 2010"
+            content: |
+              During my university studies, I supported small business customers by maintaining server and 
+              network systems, handling technical support, and assisting with network upgrades.
+
+      - company: "ENNE Solutions"
+        jobs:
+          - name: "System Engineer"
+            date: "Mar 2011 – Jun 2011"
+            content: |
+              First time experience with some semi automation migration from an old virtual workplace
+              to a modern VDI solution. Learned a lot about VMware and virtual desktops.
+
+      - company: "Zuyd University of Applied Sciences"
+        companyUrl: "https://www.zuyd.nl"
+        jobs:
+          - name: "Application Manager Assistant"
+            date: "Mar 2007 – Mar 2012"
+            content: |
+              Realized that instead of delivering news papers as a job, you could deliver digital packets and got 
+              even payed for it. Made my start with virtual apps and application support. Mainly work during
+              holidays and after school work. 
+
+  # Education
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Bachelor of Network Infrastructure Design"
+        school:
+          name: "Zuyd University of Applied Sciences"
+          url: "https://www.zuyd.nl"
+        date: "2009 - 2012"
+        content: |-
+          A lot of hours in the labs and even started virtualization of network equipment with VMware ESX.
+          VIRL was a thing to start with. Graduated with a 9 for my final thesis about implemeting IPv6 for the 
+          university network. Probably still running IPv4 today ;)
+
+        featuredLink:
+          enable: true
+          name: "Zuyd University of Applied Sciences"
+          url: "https://www.zuyd.nl"
+
+      - title: "Network Administrator"
+        school:
+          name: "Arcus College"
+          url: "https://www.arcuscollege.nl"
+        date: "2005 - 2009"
+        content: |-
+          First time discovered that school can be fun and that you can get paid for your hobby.
+          MS-DOS was still hot and physical labs were normal. Ran around with hard disks and network cables
+
+        featuredLink:
+          enable: true
+          name: "Arcus College"
+          url: "https://www.arcuscollege.nl"
+  
+  # # Achievements
+  # achievements:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Google kickstart runner
+  #       content: I solved all problems with optimal solution.
+  #       url: https://example.com
+  #       image: /images/achievement.jpg
+  #     - title: Facebook Hackathon Winner
+  #       content: Developed a product using Artificial Intelligence.
+  #       image: /images/achievement.jpg
+  #     - title: Hugo Profile
+  #       content: Developed a theme and getting 1K+ downloads per month.
+  #       url: "https://github.com/gurusabarish/hugo-profile"
+  #       image: /images/achievement.jpg
+  #     - title: Microsoft Imagine Runner
+  #       content: We are developed a product which can help others.
+  #     - title: Google Summer of Code
+  #       content: Contributed to a open source project.
+  #       url: https://example.com
+
+  # # projects
+  # projects:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Hugo Profile
+  #       content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+  #       image: /images/projects/profile.png
+  #       featured:
+  #         name: Demo
+  #         link: https://hugo-profile.netlify.app
+  #       badges:
+  #         - "Hugo"
+  #         - "Bootstrap"
+  #         - "Javascript"
+  #       links:
+  #         - icon: fa fa-envelope
+  #           url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+  #         - icon: fab fa-github
+  #           url: https://github.com/gurusabarish/hugo-profile
+  #         - icon: fab fa-twitter
+  #           url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+  #     - title: Image Converter
+  #       content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+  #       image: /images/projects/converter.jpg
+  #       featured:
+  #         name: Demo
+  #         link: https://django-converter.herokuapp.com
+  #       badges:
+  #         - "Django"
+  #         - "Bootstrap"
+  #       links:
+  #         - icon: fab fa-github
+  #           url: https://github.com/gurusabarish/converter
+
+  #     - title: Hugo Profile V2
+  #       content: A clean and simple Hugo template for personal portfolio and blog.
+  #       image: /images/projects/profile2.jpg
+  #       featured:
+  #         name: Demo V2
+  #         link: https://hugo-profile-2.netlify.app
+  #       badges:
+  #         - "Hugo"
+  #         - "Bootstrap"
+  #         - "Javascript"
+  #       links:
+  #         - icon: fab fa-github
+  #           url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    enable: false
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    btnName: Mail me
+    btnLink: mailto:gurusabarisha@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://linkedin.com
+      
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>

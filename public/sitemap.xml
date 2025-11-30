@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:53427/blogs/</loc>
+    <lastmod>2025-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53427/tags/github-pages/</loc>
+    <lastmod>2025-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53427/tags/hugo/</loc>
+    <lastmod>2025-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53427/</loc>
+    <lastmod>2025-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53427/tags/portfolio/</loc>
+    <lastmod>2025-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53427/tags/</loc>
+    <lastmod>2025-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53427/blogs/hugo_setup/hugo_setup/</loc>
+    <lastmod>2025-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53427/tags/web-development/</loc>
+    <lastmod>2025-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:53427/gallery/</loc>
+    <lastmod>2022-06-25T18:35:46+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:53427/categories/</loc>
+  </url>
+</urlset>

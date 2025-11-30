@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Using Hugo with GitHub Pages on Michel Pronini</title>
+    <link>http://localhost:53427/blogs/hugo_setup/hugo_setup/</link>
+    <description>Recent content in Using Hugo with GitHub Pages on Michel Pronini</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:53427/blogs/hugo_setup/hugo_setup/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
