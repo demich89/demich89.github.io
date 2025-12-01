@@ -134,9 +134,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Michel."
-    subtitle: "Devops Engineer"
-    content: "I write code that keeps the internet from catching fire. Calm under pressure, dangerous with Python, and allergic to manual config."
+    title: "Michel,"
+    subtitle: "Network DevOps Engineer "
+    
     image: "https://media.licdn.com/dms/image/v2/C5603AQGe7JILOBdnrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655271708324?e=1764806400&v=beta&t=SIq7CGeOnvLD0mMMQDNi6E1tKvT91BqkIf8IOUDQ2k8"
     bottomImage:
       enable: true
@@ -160,23 +160,23 @@ params:
   # About
   about:
     enable: true
-    title: "Me"
+    title: "About"
     image: "https://media.licdn.com/dms/image/v2/C5603AQGe7JILOBdnrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655271708324?e=1764806400&v=beta&t=SIq7CGeOnvLD0mMMQDNi6E1tKvT91BqkIf8IOUDQ2k8"
     content: |-
-      I’m a DevOps engineer with a strong background in networking and automation. 
-      Over the years, I’ve worked across diverse technical domains, specializing in routing, switching, and infrastructure engineering. I’m passionate about bridging traditional networking with modern software practices to build scalable, automated systems. 
-      Currently, I’m focusing on advancing network automation and process optimization through scripting and DevOps tools — turning complex infrastructure into efficient, reliable platforms that drive innovation across the organization.
+      I’m a Network DevOps Engineer with a strong background in networking and automation. I’ve worked across diverse technical domains, specializing in routing, infrastructure engineering, and scalable systems. I focus on connecting traditional networking with modern software practices to deliver automated, reliable, and efficient infrastructure.
+      Currently, I’m advancing network automation and process optimization through scripting and DevOps tooling — simplifying complex environments and enabling faster, more innovative operations across the organization.
+
     skills:
       enable: true
-      title: "Current recent skill focus:"
+      title: "Recent focus:"
       items:
-          - "Python - let the scripts do the work"
-          - "Terraform – because state is key"
-          - "BGP/MPLS – In doubt, route it out"
-          - "Fortinet, Cisco, Juniper, 6WIND – been there, configured that"
-          - "OpenStack - cloudy with a chance of packets"
-          - "CI/CD – automate all the things"
-          - "MacOS – Byebye blue screens"
+          - "[Python](http://python.org)"
+          - "[Terraform](https://terraform.io) / [OpenTofu](https://opentofu.org)"
+          - "BGP / MPLS"
+          - "[6WIND](https://www.6wind.com) / [FRR](https://frrouting.org)"
+          - "[OpenStack](https://www.openstack.org)"
+          - "CI / CD"
+          - "[Containerlab](https://containerlab.dev)"
 
   # Experience
   experience:
