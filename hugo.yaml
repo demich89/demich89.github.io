@@ -44,13 +44,15 @@ Menus:
     - identifier: Tools
       title: Example dropdown menu
       name: Tools
-      weight: 3
-    - identifier: dropdown1
-      title: example dropdown 1
+      weight: 2
+    - identifier: packet_calculator
       name: Packet Calculator
       url: /packet_calculator/
       parent: Tools
-      weight: 1
+    - identifier: bgp_asdot
+      name: BGP Asdot
+      url: /bgp_asdot/
+      parent: Tools  
     # - identifier: dropdown2
     #   title: example dropdown 2
     #   name: example 2
