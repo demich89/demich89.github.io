@@ -41,16 +41,16 @@ Menus:
     #   url: /gallery
     #   weight: 2
     #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
+    - identifier: Tools
+      title: Example dropdown menu
+      name: Tools
+      weight: 3
+    - identifier: dropdown1
+      title: example dropdown 1
+      name: Packet Calculator
+      url: /packet_calculator/
+      parent: Tools
+      weight: 1
     # - identifier: dropdown2
     #   title: example dropdown 2
     #   name: example 2
@@ -160,7 +160,7 @@ params:
   # About
   about:
     enable: true
-    title: "About"
+    title: "About Me"
     image: "https://media.licdn.com/dms/image/v2/C5603AQGe7JILOBdnrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655271708324?e=1764806400&v=beta&t=SIq7CGeOnvLD0mMMQDNi6E1tKvT91BqkIf8IOUDQ2k8"
     content: |-
       I’m a Network DevOps Engineer with a strong background in networking and automation. I’ve worked across diverse technical domains, specializing in routing, infrastructure engineering, and scalable systems. I focus on connecting traditional networking with modern software practices to deliver automated, reliable, and efficient infrastructure.
@@ -188,7 +188,7 @@ params:
           - name: "DevOps Engineer"
             date: "Jun 2022 – Present"
             content: |
-              At the leading ISP from Switzerland, [Swisscom](https://www.swisscom.ch), I started the my first real DevOps engineer role.
+              At the leading ISP from Switzerland, [Swisscom](https://www.swisscom.ch), I started the my first real Network DevOps engineer role.
               Automate were possible, lab everything first before production. Working on a daily base with Python and Terraform
               to automate network deployments and configurations.
 
@@ -246,8 +246,7 @@ params:
               Nexus, Netscaler, ASA, DMVPN — if it blinked and had an IP, I made it work. 
               Automated repetitive tasks with Excel (had I only known better than).
 
-      - company: "Liquid Stones Professionals in IT"
-        companyUrl: "https://www.liquidstones.nl"
+      - company: "Liquid Stones"
         jobs:
           - name: "Engineer"
             date: "Sep 2012 – Sep 2013"
@@ -277,8 +276,8 @@ params:
           - name: "Application Manager Assistant"
             date: "Mar 2007 – Mar 2012"
             content: |
-              Realized that instead of delivering news papers as a job, you could deliver digital packets and got 
-              even payed for it. Made my start with virtual apps and application support. Mainly work during
+              Realized that instead of delivering news papers as a job, I could deliver digital packets and got 
+              even payed for it. Made my start with virtual apps and application support. Mainly worked during
               holidays and after school work. 
 
   # Education
@@ -292,9 +291,8 @@ params:
           url: "https://www.zuyd.nl"
         date: "2009 - 2012"
         content: |-
-          A lot of hours in the labs and even started virtualization of network equipment with VMware ESX.
-          VIRL was a thing to start with. Graduated with a 9 for my final thesis about implemeting IPv6 for the 
-          university network. Probably still running IPv4 today ;)
+          I spent countless hours in the labs and eventually began virtualizing network equipment using VMware ESX. VIRL was my starting point into network simulation. 
+          I graduated with a 9 on my final thesis about implementing IPv6 for the university network — which, ironically, is probably still running IPv4 today. ;)
 
         featuredLink:
           enable: true
@@ -307,18 +305,19 @@ params:
           url: "https://www.arcuscollege.nl"
         date: "2005 - 2009"
         content: |-
-          First time discovered that school can be fun and that you can get paid for your hobby.
-          MS-DOS was still hot and physical labs were normal. Ran around with hard disks and network cables
+          That’s when I realized school could actually be fun — and that your hobby can become a career. 
+          MS-DOS was still popular and hands-on labs were the default. 
+          I was constantly moving between machines, carrying hard drives and network cables.
 
         featuredLink:
           enable: true
           name: "Arcus College"
           url: "https://www.arcuscollege.nl"
   
-  # # Achievements
+  # # # Achievements
   # achievements:
   #   enable: true
-  #   # title: "Custom Name"
+  #   #title: "Custom Name"
   #   items:
   #     - title: Google kickstart runner
   #       content: I solved all problems with optimal solution.

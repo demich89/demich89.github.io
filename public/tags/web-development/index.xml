@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Development on Michel Pronini</title>
-    <link>http://localhost:57860/tags/web-development/</link>
+    <link>http://localhost:58581/tags/web-development/</link>
     <description>Recent content in Web Development on Michel Pronini</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57860/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58581/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Hugo with GitHub Pages</title>
-      <link>http://localhost:57860/blogs/hugo_setup/hugo_setup/</link>
+      <link>http://localhost:58581/blogs/hugo_setup/hugo_setup/</link>
       <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57860/blogs/hugo_setup/hugo_setup/</guid>
+      <guid>http://localhost:58581/blogs/hugo_setup/hugo_setup/</guid>
       <description>&lt;p&gt;This document describes how to build and deploy a Hugo-based personal profile or résumé website using GitHub Pages.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-install-and-initialize-hugo&#34;&gt;1. Install and Initialize Hugo&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Install Hugo on macOS via Homebrew&#xA;brew install hugo          &#xA;# Create a project directory for the site&#xA;mkdir website_example      &#xA;# Navigate into the project folder&#xA;cd website_example         &#xA;# Initialize a new Hugo site (use --force only if the folder isn’t empty)&#xA;hugo new site .            &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;2-add-hugo-profile&#34;&gt;2. Add hugo Profile&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/themes/hugo-profile/&#34;&gt;Hugo-profile&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
