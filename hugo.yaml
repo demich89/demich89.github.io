@@ -139,7 +139,7 @@ params:
     title: "Michel,"
     subtitle: "Network DevOps Engineer "
     
-    image: "https://media.licdn.com/dms/image/v2/C5603AQGe7JILOBdnrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655271708324?e=1764806400&v=beta&t=SIq7CGeOnvLD0mMMQDNi6E1tKvT91BqkIf8IOUDQ2k8"
+    image: "https://avatars.githubusercontent.com/u/47238418?v=4"
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -163,7 +163,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "https://media.licdn.com/dms/image/v2/C5603AQGe7JILOBdnrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655271708324?e=1764806400&v=beta&t=SIq7CGeOnvLD0mMMQDNi6E1tKvT91BqkIf8IOUDQ2k8"
+    image: "https://avatars.githubusercontent.com/u/47238418?v=4"
     content: |-
       I’m a Network DevOps Engineer with a strong background in networking and automation. I’ve worked across diverse technical domains, specializing in routing, infrastructure engineering, and scalable systems. I focus on connecting traditional networking with modern software practices to deliver automated, reliable, and efficient infrastructure.
       Currently, I’m advancing network automation and process optimization through scripting and DevOps tooling — simplifying complex environments and enabling faster, more innovative operations across the organization.
@@ -410,8 +410,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
+      github: https://github.com/demich89
+      linkedin: https://www.linkedin.com/in/michelpronini/
       
   # List pages like blogs and posts
   listPages:
